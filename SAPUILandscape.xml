@@ -1,0 +1,22 @@
+<Landscape updated="2024-07-20T00:34:20Z" version="1" generator="SAP GUI for Windows v8000.1.0.155">
+<Workspaces>
+<Workspace uuid="fae335f7-b04c-4cfc-bb5d-91617f755cce" name="Local">
+<Item uuid="d12f8135-0291-465b-adf2-3125fb48ff96" serviceid="c9153214-1782-43d7-83a3-3af6c4206ee8"/>
+<Item uuid="899203a0-8f4b-45ea-b9a2-356180aae4ab" serviceid="0fa24b9f-73f2-4094-916f-9164c9ce1932"/>
+</Workspace>
+</Workspaces>
+<Services>
+<Service type="SAPGUI" uuid="c9153214-1782-43d7-83a3-3af6c4206ee8" name="SAP KF - PRODUCTION" systemid="KEP" msid="0201b2e8-eeb0-4fbe-874b-ed2a9ed7bd5c" server="SAP_KF" routerid="f73e90a6-b8fb-40e6-b869-25d475dde83b" sncop="-1" dcpg="2"/>
+<Service type="SAPGUI" uuid="0fa24b9f-73f2-4094-916f-9164c9ce1932" name="SAP KF - QAS" systemid="KEQ" mode="1" server="10.20.30.43:3222" routerid="f73e90a6-b8fb-40e6-b869-25d475dde83b" sncop="-1" dcpg="2"/>
+</Services>
+<Routers>
+<Router uuid="d02f0201-9ee2-4cdb-b960-d5adc591b6f5" name="/H/36.66.86.155/S/3299/W/kimiafarma16/" description="/H/36.66.86.155/S/3299/W/kimiafarma16/" router="/H/36.66.86.155/S/3299/W/kimiafarma16/"/>
+<Router uuid="f73e90a6-b8fb-40e6-b869-25d475dde83b" name="/H/kferp-sapgui.kimiafarma.co.id/S/3299/W/KFsap2024" description="/H/kferp-sapgui.kimiafarma.co.id/S/3299/W/KFsap2024" router="/H/kferp-sapgui.kimiafarma.co.id/S/3299/W/KFsap2024"/>
+</Routers>
+<Messageservers>
+<Messageserver uuid="0201b2e8-eeb0-4fbe-874b-ed2a9ed7bd5c" name="KEP" host="10.20.33.111" port="3611"/>
+</Messageservers>
+<Includes>
+<Include url="file:///C:/Users/SERVER%20IT%20-%20ONE/AppData/Roaming/SAP/Common/SAPUILandscapeGlobal.xml" index="0" description="SAP Reserved"/>
+</Includes>
+</Landscape>
